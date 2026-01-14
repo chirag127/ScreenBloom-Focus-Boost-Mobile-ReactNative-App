@@ -1,0 +1,72 @@
+/* Glassmorphism base */
+body {
+    margin:0;
+    font-family:Arial,Helvetica,sans-serif;
+    background:linear-gradient(135deg,#e0eafc,#cfdef3);
+    min-height:100vh;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:flex-start;
+}
+.glass {
+    background:rgba(255,255,255,0.25);
+    border-radius:12px;
+    box-shadow:0 4px 30px rgba(0,0,0,0.1);
+    backdrop-filter:blur(8px);
+    -webkit-backdrop-filter:blur(8px);
+    border:1px solid rgba(255,255,255,0.18);
+    padding:2rem;
+    margin:1rem;
+    max-width:800px;
+    width:90%;
+    color:#333;
+}
+header {
+    text-align:center;
+    margin-top:2rem;
+}
+header h1 {
+    font-size:2.5rem;
+    margin-bottom:0.5rem;
+}
+header p {
+    font-size:1.2rem;
+    margin-bottom:1rem;
+}
+.cta {
+    display:inline-block;
+    padding:0.8rem 1.5rem;
+    background:#ff7e5f;
+    color:#fff;
+    border-radius:8px;
+    text-decoration:none;
+    font-weight:bold;
+    transition:background 0.3s;
+}
+.cta:hover {
+    background:#feb47b;
+}
+.features ul {
+    list-style:none;
+    padding:0;
+}
+.features li {
+    margin:0.5rem 0;
+    font-size:1.1rem;
+}
+.footer {
+    text-align:center;
+    margin-top:auto;
+    padding:1rem 0;
+    width:100%;
+    font-size:0.9rem;
+}
+.footer a {
+    color:#0066cc;
+    text-decoration:none;
+    margin:0 0.5rem;
+}
+.footer a:hover {
+    text-decoration:underline;
+}
